@@ -12,6 +12,7 @@ html {
   td, th {
     border: 1px solid rgb(190,190,190);
     padding: 10px 20px;
+    text-align: left;
   }
   
   th {
@@ -19,7 +20,8 @@ html {
   }
   
   td {
-    text-align: center;
+    text-align: right;
+    font-family: 'B612 Mono', monospace;
   }
   
   tr:nth-child(even) td {
